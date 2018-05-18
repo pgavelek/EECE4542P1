@@ -1,0 +1,2 @@
+
+For every project you complete, submit a file called resultsX.txt, where X is the project num- ber. Within this file, write a paragraph that summarizes the performance of the algorithms you implemented.
