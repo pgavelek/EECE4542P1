@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19B0376520AF58240005DD66 /* timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B0376420AF58240005DD66 /* timing.cpp */; };
 		27A147CD20ACE77B0077C21F /* p1a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A147CB20ACE77B0077C21F /* p1a.cpp */; };
 		27A147CE20ACE77B0077C21F /* p1b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A147CC20ACE77B0077C21F /* p1b.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19B0376420AF58240005DD66 /* timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timing.cpp; sourceTree = "<group>"; };
 		27A147BF20ACD94B0077C21F /* EECE4542P1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EECE4542P1; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A147C720ACE77B0077C21F /* d_except.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d_except.h; sourceTree = "<group>"; };
 		27A147C820ACE77B0077C21F /* d_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d_matrix.h; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		27A147C120ACD94B0077C21F /* EECE4542P1 */ = {
 			isa = PBXGroup;
 			children = (
+				19B0376420AF58240005DD66 /* timing.cpp */,
 				27A147C720ACE77B0077C21F /* d_except.h */,
 				27A147C820ACE77B0077C21F /* d_matrix.h */,
 				27A147C920ACE77B0077C21F /* d_random.h */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A147CE20ACE77B0077C21F /* p1b.cpp in Sources */,
+				19B0376520AF58240005DD66 /* timing.cpp in Sources */,
 				27A147CD20ACE77B0077C21F /* p1a.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +205,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = /opt/boost_1_57_0;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/opt/boost_1_57_0,
+					"/Users/emilysimoneau/Documents/EECE-4542/boost_1_66_0",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
