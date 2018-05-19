@@ -31,6 +31,18 @@
 		27A147CA20ACE77B0077C21F /* knapsack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = knapsack.h; sourceTree = "<group>"; };
 		27A147CB20ACE77B0077C21F /* p1a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = p1a.cpp; sourceTree = "<group>"; };
 		27A147CC20ACE77B0077C21F /* p1b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = p1b.cpp; sourceTree = "<group>"; };
+		27A147CF20AF97240077C21F /* knapsack8.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = knapsack8.output; sourceTree = "<group>"; };
+		27A147D020AFAD160077C21F /* knapsack64.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack64.output; sourceTree = "<group>"; };
+		27A147D120AFAD170077C21F /* knapsack128.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack128.output; sourceTree = "<group>"; };
+		27A147D220AFAD170077C21F /* knapsack12.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack12.output; sourceTree = "<group>"; };
+		27A147D320AFAD170077C21F /* knapsack20.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack20.output; sourceTree = "<group>"; };
+		27A147D420AFAD170077C21F /* knapsack48.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack48.output; sourceTree = "<group>"; };
+		27A147D520AFAD170077C21F /* knapsack16.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack16.output; sourceTree = "<group>"; };
+		27A147D620AFAD170077C21F /* knapsack32.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack32.output; sourceTree = "<group>"; };
+		27A147D720AFAD170077C21F /* knapsack28.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack28.output; sourceTree = "<group>"; };
+		27A147D820AFBD2F0077C21F /* knapsack256.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack256.input; sourceTree = "<group>"; };
+		27A147D920AFBD2F0077C21F /* knapsack512.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack512.input; sourceTree = "<group>"; };
+		27A147DA20AFBD2F0077C21F /* knapsack1024.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knapsack1024.input; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +75,24 @@
 		27A147C120ACD94B0077C21F /* EECE4542P1 */ = {
 			isa = PBXGroup;
 			children = (
+				27A147D820AFBD2F0077C21F /* knapsack256.input */,
+				27A147D920AFBD2F0077C21F /* knapsack512.input */,
+				27A147DA20AFBD2F0077C21F /* knapsack1024.input */,
+				27A147D220AFAD170077C21F /* knapsack12.output */,
+				27A147D520AFAD170077C21F /* knapsack16.output */,
+				27A147D320AFAD170077C21F /* knapsack20.output */,
+				27A147D720AFAD170077C21F /* knapsack28.output */,
+				27A147D620AFAD170077C21F /* knapsack32.output */,
+				27A147D420AFAD170077C21F /* knapsack48.output */,
+				27A147D020AFAD160077C21F /* knapsack64.output */,
+				27A147D120AFAD170077C21F /* knapsack128.output */,
 				27A147C720ACE77B0077C21F /* d_except.h */,
 				27A147C820ACE77B0077C21F /* d_matrix.h */,
 				27A147C920ACE77B0077C21F /* d_random.h */,
 				27A147CA20ACE77B0077C21F /* knapsack.h */,
 				27A147CB20ACE77B0077C21F /* p1a.cpp */,
 				27A147CC20ACE77B0077C21F /* p1b.cpp */,
+				27A147CF20AF97240077C21F /* knapsack8.output */,
 			);
 			path = EECE4542P1;
 			sourceTree = "<group>";

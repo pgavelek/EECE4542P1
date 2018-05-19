@@ -13,6 +13,7 @@ class knapsack
       int getNumObjects() const;
       int getCostLimit() const;
       void printSolution();
+      void printSolution(string filePath_output);
       void select(int);
       void unSelect(int);
       bool isSelected(int) const;
@@ -161,6 +162,23 @@ void knapsack::printSolution()
 
    cout << endl;
 }
+
+void knapsack::printSolution(string filePath_output)
+    {
+        ofstream myfile;
+        myfile.open(filePath_output.c_str());
+        myfile << "------------------------------------------------" << endl;
+        myfile << "Total value: " << getValue() << endl;
+        myfile << "Total cost: " << getCost() << endl << endl;
+        
+        // Print out objects in the solution
+        for (int i = 0; i < getNumObjects(); i++)
+            if (isSelected(i))
+                myfile << i << "  " << getValue(i) << " " << getCost(i) << endl;
+        
+        cout << endl;
+        myfile.close();
+    }
 
 ostream &operator<<(ostream &ostr, vector<bool> v)
 // Overloaded output operator for vectors.
